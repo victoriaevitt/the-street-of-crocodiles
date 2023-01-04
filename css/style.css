@@ -1,47 +1,3 @@
-/*-- CSS Reset --*/
-*{padding: 0;
-    margin: 0;
-    font-size: 100%;
-    font-weight: normal;
-    line-height: 1em;
-    }
-
-/*-- Start main styling 
-body {
-    background: #FED077;
-    color: #171717;
-    font-family: 'Playfair Display', serif;
-}
-
-section, header {
-    width: 80%;
-    max-width: 700px;
-    margin: auto;
-}
-
-section{
-    margin-bottom: 4rem;
-}
-
-p, blockquote {
-    padding: .5rem 0;
-    line-height: 1.3;}
-
-h1, h2, h3  {
-    color:#f12185(110, 3, 3);
-}
-
-.gridimage {
-    display: grid;
-    column-gap: 10px;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 300px)); 
-}
-
-    
-
-*/
-
-
 
 /*-- PAUL'S CSS ---*//*-- CSS Reset --*/
 * {
@@ -95,10 +51,13 @@ section, header {
 
 h1, h2, blockquote {
     color: #F12185;
+    font-weight: 300;
 }
 
 h3 {
     color: #F12185;
+    font-size: 3rem;
+    font-weight: 500;
 }
 
 blockquote {
@@ -141,7 +100,7 @@ cite {
 }
 
 header h2 {
-    font-size: 1.827rem;
+    font-size: 3rem;
     font-style: italic;
     margin-top: -.5em;
     margin-bottom: 1.5em;
@@ -237,10 +196,11 @@ img {
     display: block;
     padding: 0;
     max-width: 100%;
+    height: 150px;
 }
 
 footer {
-    background: #030307;
+    background: #0C19AD;
     text-align: center;
     font-size: 0.75rem;
     color: #f7f7f7;
@@ -249,6 +209,9 @@ footer {
 
 footer p {
     margin: .5em
+    text-align: center;
+        font-size: 0.75rem;
+        color: #FED077;
 }
 
 .connections{
