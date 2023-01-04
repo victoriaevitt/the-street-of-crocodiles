@@ -6,7 +6,7 @@
     line-height: 1em;
     }
 
-/*-- Start main styling --*/
+/*-- Start main styling 
 body {
     background: #FED077;
     color: #171717;
@@ -19,6 +19,294 @@ section, header {
     margin: auto;
 }
 
-h1,h2,h3 {
+section{
+    margin-bottom: 4rem;
+}
+
+p, blockquote {
+    padding: .5rem 0;
+    line-height: 1.3;}
+
+h1, h2, h3  {
     color:#f12185(110, 3, 3);
+}
+
+.gridimage {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 300px)); 
+}
+
+    
+
+*/
+
+
+
+/*-- PAUL'S CSS ---*//*-- CSS Reset --*/
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+/*-- Main structural styling--*/
+
+body {
+    background: #FED077;
+    color: #171717;
+    font-family: 'Playfair Display', serif;
+}
+
+section, header {
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+}
+
+
+
+.market img {
+    padding-bottom: 2em
+}
+
+.market {
+    background: #D8C385;
+    padding: 3em 0;
+}
+
+.street {
+    background: #F12185;
+    padding: 3em 0;
+}
+
+
+.gridimage {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); 
+}
+
+
+
+/*-- Styling typography --*/
+
+h1, h2, blockquote {
+    color: #F12185;
+}
+
+h3 {
+    color: #F12185;
+}
+
+blockquote {
+    color: #0C19AD
+}
+
+p, blockquote, h1 {
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+h1 {
+    font-size: 5.653rem;
+    padding-top: .5em;
+    text-transform: uppercase;
+    line-height: 1em
+}
+
+.lower {
+    text-transform: none
+}
+
+h2 {
+    font-size: 1.999rem;
+    margin: 3em 0 1em 0;
+    color: #F12185;
+}
+
+blockquote {
+    font-size: 1.414rem;
+    font-style: italic;
+    hanging-punctuation: first;
+    text-indent: -0.5rem
+}
+
+cite {
+    font-size: 0.8em;
+    color: #333333;
+    font-style: normal;
+}
+
+header h2 {
+    font-size: 1.827rem;
+    font-style: italic;
+    margin-top: -.5em;
+    margin-bottom: 1.5em;
+    color: #F12185
+}
+
+header p {
+    font-size: 1.3rem
+}
+
+.indent {
+    padding-left: 4em;
+    font-style: italic;
+}
+
+.street p {
+    color: #f7f7f7;
+}
+
+.street h2 {
+    color: #f7f7f7;
+}
+
+.leader {
+    text-transform: uppercase
+}
+
+.dropcap {
+    font-family: warnock-pro-display, serif;
+    float: left;
+    font-size: 6rem;
+    padding-right: .05em;
+    line-height: .5;
+    color: #87460D;}
+
+p {font-family: mr-eaves-sans, sans-serif;}
+
+/*-- Styling links --*/
+a {
+    color: #87460D;
+    text-decoration: none
+}
+
+a:hover {
+    color: #F12185(115, 133, 0);
+    border-bottom: 1px dotted;
+}
+
+/*-- Styling nav --*/
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background: #0C19AD;
+    padding: 2em 0;
+    font-size: 0.75rem;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px
+}
+
+nav a {
+    color: #FED077;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: rgb(255, 187, 127);
+    transition: all 0.3s ease-in-out
+}
+
+hr {
+    margin: 100px 0;
+    height: 1px;
+    background-color: #87460D;
+    color: #87460D;
+    border: 0 none;
+}
+
+/*----- IMAGES -----*/
+img {
+    display: block;
+    padding: 0;
+    max-width: 100%;
+}
+
+footer {
+    background: #030307;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #f7f7f7;
+    padding: 4em 0 3em 0
+}
+
+footer p {
+    margin: .5em
+}
+
+.connections{
+    position: relative;
+    margin: 0 auto;
+  }
+  .connections ul{
+    margin: 0;
+    padding: 0;
+  }
+  .connections li{
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;  
+  }
+  .connections a:link{
+    border-bottom: none;
+  }
+  .connections img,
+  .connections svg{
+    border: none;
+  }
+  .connections a:hover img,
+  .connections a:hover svg{
+    border-bottom: none;}
+  
+  .connections svg {
+        margin: 1em auto;}
+  
+  .connections a:hover svg path {
+        fill: #D8C385;
+        transition: all 0.2s ease-in-out;}
+  
+  footer .connections a:hover svg path {
+          fill:  #D8C385;
+          transition: all 0.2s ease-in-out;}
+
+
+
+@media only screen and (max-width: 900px) {
+            .gridimage {
+              display: grid;
+              grid-gap: 20px;
+              grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+              padding-bottom: 2em;}
+
+              h1 {
+                font-size: 4.5rem
+            }}
+
+@media only screen and (max-width: 650px) {
+
+    h1 {
+        font-size: 3rem
+    }
+
+    header h2 {
+        font-size: 1.5rem
+    }
 }
