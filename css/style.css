@@ -9,6 +9,10 @@
 }
 
 /*-- Main structural styling--*/
+ul {
+    font-size: 1rem;
+    font-weight: 400;
+}
 
 body {
     background: #FED077;
@@ -176,7 +180,7 @@ nav a {
 
 nav a:hover {
     border-bottom: none;
-    color: rgb(255, 187, 127);
+    color: #F12185(255, 187, 127);
     transition: all 0.3s ease-in-out
 }
 
